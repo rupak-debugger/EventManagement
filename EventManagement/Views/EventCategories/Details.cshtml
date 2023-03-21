@@ -1,0 +1,30 @@
+﻿@model EventManagement.Models.DomainModels.EventCategory
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Event category details</h2>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Event category
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EventCategoryName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-success" asp-action="Edit" asp-route-id="@Model?.EventCategoryId"><i class="fa fa-pencil"></i> Edit</a>
+    <a class="btn btn-secondary" asp-action="Index"><i class="fa fa-arrow-left"></i> Back to List</a>
+</div>

@@ -1,0 +1,30 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@model IEnumerable<IdentityRole>;
+@{
+    ViewData["Title"] = "Application Roles";
+}
+
+<h2>View user roles</h2>
+<hr />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model=>model.Name)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelitem=>item.Name)</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

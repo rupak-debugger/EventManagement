@@ -1,0 +1,32 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@using EventManagement.Areas.Identity.Data
+@using EventManagement.Models.ViewModels
+@model IEnumerable<ApplicationUserViewModel>;
+@{
+    ViewData["Title"] = "Users";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Application Users</h2>
+
+
+<a class="btn btn-info" id="register" asp-area="Identity" asp-page="/Account/Register"><i class="fa fa-plus"></i> Add new user</a>
+<hr />
+<table class="table">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FullName</td>
+                <td>@item.Email</td>
+                <td>@item.Role</td>
+            </tr>
+        }
+    </tbody>
+</table>

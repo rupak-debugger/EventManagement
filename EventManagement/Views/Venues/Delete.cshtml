@@ -1,0 +1,27 @@
+﻿@model EventManagement.Models.DomainModels.Venue
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete venue</h2>
+
+<h4 class="text-danger">Are you sure you want to delete this?</h4>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Venue
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VenueName)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete" style="padding:unset; box-shadow:none;">
+        <input type="hidden" asp-for="VenueId" />
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a class="btn btn-secondary" asp-action="Index"><i class="fa fa-arrow-left"></i> Back to List</a>
+    </form>
+</div>

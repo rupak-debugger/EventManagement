@@ -1,0 +1,66 @@
+﻿@model IEnumerable<EventManagement.Models.DomainModels.EventInformation>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>View event information</h2>
+
+<p>
+    <a class="btn btn-info" asp-action="Create"><i class="fa fa-plus"></i> Add event</a>
+</p>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                Event date and time
+            </th>
+            <th>
+                No. of attendees
+            </th>
+            <th>
+                Organizer
+            </th>
+            <th>
+                Event type
+            </th>
+            <th>
+                Venue
+            </th>
+            <th>
+                Booked on
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttendeeNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventCategories.EventCategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Venues.VenueName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookedOn)
+            </td>
+            <td>
+                
+                <a class="btn btn-primary btn-sm" asp-action="Details" asp-route-id="@item.EventInfoId"><i class="fa fa-bars"></i> Details</a> 
+                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

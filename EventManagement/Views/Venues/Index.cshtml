@@ -1,0 +1,37 @@
+﻿@model IEnumerable<EventManagement.Models.DomainModels.Venue>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>View venues</h2>
+
+<p>
+    <a class="btn btn-info" asp-action="Create"><i class="fa fa-plus"></i> Add new venue</a>
+</p>
+<hr />
+<table class="table w-50">
+    <thead class="thead-dark">
+        <tr>
+            <th class="px-5">
+                @Html.DisplayNameFor(model => model.VenueName)
+            </th>
+            <th class="px-5"></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td class="px-5">
+                @Html.DisplayFor(modelItem => item.VenueName)
+            </td>
+            <td class="px-5">
+                <a class="btn btn-success btn-sm" asp-action="Edit" asp-route-id="@item.VenueId"><i class="fa fa-pencil"></i> Edit</a>
+                <a class="btn btn-primary btn-sm" asp-action="Details" asp-route-id="@item.VenueId"><i class="fa fa-bars"></i> Details</a>
+                <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.VenueId"><i class="fa fa-trash"></i> Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

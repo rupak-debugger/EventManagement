@@ -1,0 +1,58 @@
+﻿@model EventManagement.Models.DomainModels.EventInformation
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Event details</h2>
+
+<div>
+   
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Event date and time
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EventTime)
+        </dd>
+        <dt class = "col-sm-2">
+            No. of attendees
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AttendeeNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            Organizer
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.User.FullName)
+        </dd>
+        <dt class = "col-sm-2">
+            Event type
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EventCategories.EventCategoryName)
+        </dd>
+        <dt class = "col-sm-2">
+            Venue
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Venues.VenueName)
+        </dd>
+        <dt class = "col-sm-2">
+            Booked on
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BookedOn)
+        </dd>
+    </dl>
+</div>
+<div>
+    @if(User.IsInRole("admin"))
+    {
+        <a class="btn btn-success" asp-action="Edit" asp-route-id="@Model?.EventInfoId"><i class="fa fa-pencil"></i> Edit</a>
+    }
+     <a class="btn btn-secondary" asp-action="Index"><i class="fa fa-arrow-left"></i> Back to List</a>
+</div>

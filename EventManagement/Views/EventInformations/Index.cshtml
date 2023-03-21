@@ -1,0 +1,85 @@
+﻿@model IEnumerable<EventManagement.Models.DomainModels.EventInformation>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>View event information</h2>
+@if(User.IsInRole("admin"))
+{
+    <form asp-action="Index" method="post" style="padding:unset; box-shadow:none;">
+        
+        <input type="text" placeholder="search by attendee " name="Key" required >
+        <button class="btn btn-secondary">Search</button>
+    </form>
+
+}
+<hr />
+<p>
+    <a class="btn btn-info" asp-action="Create"><i class="fa fa-plus"></i> Add event</a>
+    @if (User.IsInRole("admin"))
+    {
+        <a class="btn btn-secondary" asp-action="EventToday"><i class="fa fa-eye"></i> Event today</a>
+    }
+    
+</p>
+<hr />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Event date and time
+            </th>
+            <th>
+                Attendees
+            </th>
+            <th>
+                Organizer
+            </th>
+            <th>
+                Event type
+            </th>
+            <th>
+                Venue
+            </th>
+            <th>
+                Booked on
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttendeeNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventCategories.EventCategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Venues.VenueName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookedOn)
+            </td>
+            <td>
+                <a class="btn btn-success btn-sm" asp-action="Edit" asp-route-id="@item.EventInfoId"><i class="fa fa-pencil"></i> Edit</a> 
+                <a class="btn btn-primary btn-sm" asp-action="Details" asp-route-id="@item.EventInfoId"><i class="fa fa-bars"></i> Detail</a> 
+                <a  class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.EventInfoId"><i class="fa fa-trash"></i> Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<div>
+    <a class="btn btn-secondary btn-sm" asp-action="Index"><i class="fa fa-arrow-left"></i> Back to list</a>
+</div>

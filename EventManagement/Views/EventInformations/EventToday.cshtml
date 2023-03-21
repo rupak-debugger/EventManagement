@@ -1,0 +1,54 @@
+﻿@model IEnumerable<EventManagement.Models.DomainModels.EventInformation>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Today's events</h2>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                Event date and time
+            </th>
+            <th>
+                No. of attendees
+            </th>
+            <th>
+                Organizer
+            </th>
+            <th>
+                Event type
+            </th>
+            <th>
+                Venue
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttendeeNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventCategories.EventCategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Venues.VenueName)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<div>
+    <a class="btn btn-secondary btn-sm" asp-action="Index"><i class="fa fa-arrow-left"></i> Back to List</a>
+</div>
