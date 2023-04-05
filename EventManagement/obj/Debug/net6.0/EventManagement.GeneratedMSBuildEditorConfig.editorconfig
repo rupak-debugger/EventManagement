@@ -8,153 +8,153 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EventManagement
 build_property.RootNamespace = EventManagement
-build_property.ProjectDir = C:\Users\Rupak\Desktop\EventManagement\EventManagement\
+build_property.ProjectDir = c:\Users\Rupak\Desktop\EventManagement\EventManagement\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Rupak\Desktop\EventManagement\EventManagement
+build_property.MSBuildProjectDirectory = c:\Users\Rupak\Desktop\EventManagement\EventManagement
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/Account/Login.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/Account/Logout.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/Account/Register.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/_ViewImports.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/_ViewStart.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Accounts/GetAllUsers.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Accounts/GetAllUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcR2V0QWxsVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Accounts/GetAppRoles.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Accounts/GetAppRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcR2V0QXBwUm9sZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventCategories/Create.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventCategories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRDYXRlZ29yaWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventCategories/Delete.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventCategories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRDYXRlZ29yaWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventCategories/Details.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventCategories/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRDYXRlZ29yaWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventCategories/Edit.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventCategories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRDYXRlZ29yaWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventCategories/Index.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventCategories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRDYXRlZ29yaWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventInformations/Create.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventInformations/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRJbmZvcm1hdGlvbnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventInformations/Delete.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventInformations/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRJbmZvcm1hdGlvbnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventInformations/Details.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventInformations/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRJbmZvcm1hdGlvbnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventInformations/Edit.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventInformations/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRJbmZvcm1hdGlvbnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventInformations/EventToday.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventInformations/EventToday.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRJbmZvcm1hdGlvbnNcRXZlbnRUb2RheS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventInformations/Index.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventInformations/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRJbmZvcm1hdGlvbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventInformations/ManagerIndex.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/EventInformations/ManagerIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRJbmZvcm1hdGlvbnNcTWFuYWdlckluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Home/AboutUs.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Home/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Home/Index.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Home/Privacy.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Shared/Error.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Shared/_LoginPartial.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Venues/Create.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Venues/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Venues/Delete.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Venues/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Venues/Details.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Venues/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Venues/Edit.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Venues/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Venues/Index.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Venues/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/_ViewImports.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/_ViewStart.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Shared/_Layout.cshtml]
+[c:/Users/Rupak/Desktop/EventManagement/EventManagement/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ct0d71z9yb
